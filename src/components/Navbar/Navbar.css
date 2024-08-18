@@ -57,6 +57,10 @@
     right: -8px;
     cursor: pointer;
 }
+.dark-nav{
+    background-color: #212ae0;
+    transition: 0.2s;
+}
 
 /* ---media queries--- */
 @media (max-width:1050px) {
@@ -96,6 +100,6 @@
 }
 @media (max-width:750px) {
     .navbar-menu{
-       display: none;
+      display: none;
     }
 }
